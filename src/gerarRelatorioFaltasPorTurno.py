@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 from src.utils import prod
 
-def gerarRelatorioFaltasPorTurno():
+def gerar_relatorio_faltas_por_turno():
     faltas_por_mes_1turno = defaultdict(int)
     faltas_por_mes_2turno = defaultdict(int)
 
