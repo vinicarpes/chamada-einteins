@@ -5,7 +5,7 @@ from src.coletarPresençaAlunos import coletarPresençaAlunos
 from src.determinarFrequencia import determinarFrequencia
 from src.utils import presença, DataFrameOfPresença, presençaPorcentagem, totalDePresenças, presençaMensal
 from src.presençaMensal import mensal
-from src.gerarRelatorioFaltasPorTurno import gerarRelatorioFaltasPorTurno
+from src.gerarRelatorioFaltasPorTurno import gerar_relatorio_faltas_por_turno
 
 
 print('Coletando as Datas...')
@@ -47,7 +47,7 @@ print()
 
 
 print('Gerando relatório mensal de faltas por turno...')
-gerarRelatorioFaltasPorTurno()
+gerar_relatorio_faltas_por_turno()
 print("Planilha de relatório mensal de falta/turno criada com sucesso!")
 print()
 
